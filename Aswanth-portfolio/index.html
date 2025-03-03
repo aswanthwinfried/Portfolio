@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AswanthWin_Fried_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+ 
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Win Fried</div>
+        <div class="nav-links">
+            <li><a href="#aboutUs">About</a></li>
+            <li><a href="#ex">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Win Fried</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toogleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toogleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toogleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toogleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile1.jpeg" alt="AswanthWin_Fried_Profile">
+        </div>
+
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Aswanthwin Fried</h1>
+            <p class="section_text_p2">Software Engineer</p>
+            <div class="btn-container">
+                <a href="Aswanth_Resume2 (1).pdf"><button class="btn btn-color-2">Download Resume</button></a>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/aswanthwin-fried-s-895480218/'">
+                <img src="./assets/github.png" alt="my github profile" class="icon" onclick="location.href='https://github.com/aswanthwinfried'">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="aboutUs">
+      <img src="./assets/about-pic.jpeg" alt="computer user">
+      <div class="content">
+          <h2>About Me</h2>
+          <h4> Software Engineer </h4>
+          <p class="description">
+            I am an enthusiastic learner with a passion for exploring technical content. I am deeply interested in web development and software engineering, constantly seeking opportunities to grow and expand my skills. My curiosity drives me to dive into new challenges, and I am committed to building innovative solutions that can make a positive impact
+
+          </p>
+          <button class="btn1" onclick="location.href='#contact'" >Hire Me</button>
+      </div>
+  </section>
+
+
+
+
+
+<div class="bodyexp"> 
+
+  <div class="container">
+	
+	<main class="row">
+		
+		<!--   *******  Education Section Starts  *******   -->
+
+		<section class="col">
+			
+			<header class="title">
+				<h2>EDUCATION</h2>
+			</header>
+
+			<div class="contents">
+				
+				<div class="box">
+					<h4>2022 - 2026</h4>
+					<h3>BE Computer Science and Engineering</h3>
+					<p>NPR College of Engineering and Technology,Dindigul <br>Prefinal Year <br> CGPA: 7.96</p>
+				</div>
+
+				<div class="box">
+					<h4>May 2022</h4>
+					<h3>Higher Secondary</h3>
+					<p>MM Higher Secondary School, Madurai<br> Score: 438/600 <br> Percentage: 73 %</p>
+				</div>
+
+        
+				<div class="box">
+					<h4>Mar 2020</h4>
+					<h3>SSLC</h3>
+					<p>MM Higher Secondary School, Madurai<br> Score: 357/500 <br> Percentage: 71.4 % </p>
+				</div>
+
+ 
+
+			</div>
+      </div>
+		</section>
+
+		<!--   *******  Education Section Ends  *******   -->
+
+		<!--   *******  Experience Section Starts  *******  -->
+
+		<section id="ex" class="col2">
+			
+			<header class="title">
+				<h2>EXPERIENCE</h2>
+			</header>
+
+			<div class="contents">
+
+        <div class="box">
+					<h4>January 02, 2025 - Present</h4>
+					<h3>Tech Intern, FullStack Developer</h3>
+					<p> <b>Intern at Simpery Pvt Ltd</b><ul>
+            <li>Assigned to Develop a Complete HRMS Software by following SDLC Methodologies.</li>
+            <li>Created class and component diagrams based on OOSE methodologies</li>
+            <li>Created and Implemented MySQL database schema for effective data management</li>
+            <li>Performed Secured authentication and authorization using JWT tokens</li>
+            <li>Followed REST API methodologies for smooth backend operations.</li>
+            </ul></p>
+				</div>
+
+
+
+
+        <div class="box">
+					<h4>December 2024</h4>
+					<h3>President, Web Developer</h3>
+					<p> <b> NPRCET ACM Student Chapter </b><ul>
+            <li>Created a Simple UI for students to navigate Resources.</li>
+            <li>Integrated AI Mindmap using embed codes</li>
+            <li>Developed a responsive Static Website Using HTML, CSS, and JavaScript</li>
+            <li>Successfully Deployed the NPRCET ACM Website on CPANEL for Live Access</li>
+            </ul></p>
+				</div>
+
+
+
+
+
+
+			</div>
+		</section>
+
+		<!--   *******  Experience Section Ends   *******  -->
+	</main>
+</div>
+
+
+</div>
+
+
+
+
+
+<!--Project Section-->
+
+
+
+<section id="projects">
+  <h1 class="proj-tit">Projects</h1>
+  <div class="proj">
+    <div class="proj-cont">
+      <img class="pr-img" src="./assets/nprcetacm.png" alt="">
+      <h3 class="proj-desc">NPRCET ACM Student Chapter Website <a style="color:blue;" href="https://nprcet.acm.org/">[Visit Now]</a></h3>
+    </div>
+    <div class="proj-cont">
+      <img class="pr-img" src="./assets/film.png" alt="">
+      <h3 class="proj-desc">Film Vault <a style="color:blue;" href="https://github.com/aswanthwinfried/FilmVault">[Github]</a></h3>
+    </div>
+  </div>
+    
+     
+</section>
+
+
+
+<section id="contact">
+
+  <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+            <h2>Contact Me</h2>
+            <hr>
+        </div>
+        <input type="hidden" name="access_key" value="e3a3601e-4bfd-4101-8a76-46af5529686a">
+        <input type="text" name="name" placeholder="Enter your Name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your EmailId" class="contact-inputs" required>
+        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+        <button type="Submit">Submit <img src="./assets/arrow_icon.png" alt=""></button>
+     
+    </form>
+ 
+</div>
+
+</section>
+
+<div class="footer">&copy;<span id="year"> </span><span> Aswanthwin Fried.</span></div>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
