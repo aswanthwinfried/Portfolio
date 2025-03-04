@@ -477,6 +477,37 @@ a:hover{
     width: 500px;
 }
 
+
+.sktit{
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.skills{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: azure;
+    padding: 30px;
+    margin: 28px;
+    border-radius: 30px;
+    border: aqua solid 2px;
+}
+.techsk{
+    border: aqua solid 2px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.techsk,ul,li{
+    font-size: 20px;
+    list-style: none;
+}
+
  
 /*Footer*/
 
